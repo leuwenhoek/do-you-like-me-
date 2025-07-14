@@ -15,7 +15,7 @@ def show():
     
 @app.route("/Iknow")
 def yes():
-    return render_template("i_knew_it.html",message="Then just upvote... 🙂")
+    return render_template("i_knew_it.html",message="Then, can you first message me once in a week and do a simple coversation about life... 🙂")
 
 @app.route("/chalna")
 def no():
